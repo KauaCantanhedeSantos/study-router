@@ -1,0 +1,267 @@
+/* FOR MOBILE SCREEN */
+@media screen and (max-width: 992px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Space Grotesk;
+    color: white;
+    background: black;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .container {
+    padding: 0.5rem;
+    width: 100%;
+
+    background: transparent;
+  }
+
+  /* titulo */
+  .top-title h1 {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0 0 1rem 0;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .top-title p {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .list {
+    padding: 0.5rem;
+  }
+
+  .list .string-list,
+  .list .array-list,
+  .list .function-list,
+  .list .object-list,
+  .list .handling-list {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .list .string-list h2,
+  .list .array-list h2,
+  .list .function-list h2,
+  .list .object-list h2,
+  .list .handling-list h2 {
+    padding: 0.5rem;
+    font-size: 2rem;
+    box-shadow: 0 0 0.1rem gray;
+  }
+
+  .list .string-list .list-basic,
+  .list .string-list .list-intermediary,
+  .list .string-list .list-advanced,
+  .list .array-list .list-basic,
+  .list .array-list .list-intermediary,
+  .list .array-list .list-advanced,
+  .list .function-list .list-basic,
+  .list .function-list .list-intermediary,
+  .list .function-list .list-advanced,
+  .list .object-list .list-basic,
+  .list .object-list .list-intermediary,
+  .list .object-list .list-advanced,
+  .list .handling-list .list-basic,
+  .list .handling-list .list-intermediary,
+  .list .handling-list .list-advanced {
+    box-shadow: 0 0 0.1rem gray;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+
+  .list .string-list .list-basic h3,
+  .list .string-list .list-intermediary h3,
+  .list .string-list .list-advanced h3,
+  .list .array-list .list-basic h3,
+  .list .array-list .list-intermediary h3,
+  .list .array-list .list-advanced h3,
+  .list .function-list .list-basic h3,
+  .list .function-list .list-intermediary h3,
+  .list .function-list .list-advanced h3,
+  .list .object-list .list-basic h3,
+  .list .object-list .list-intermediary h3,
+  .list .object-list .list-advanced h3,
+  .list .handling-list .list-basic h3,
+  .list .handling-list .list-intermediary h3,
+  .list .handling-list .list-advanced h3 {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .list .string-list .list-basic li,
+  .list .string-list .list-intermediary li,
+  .list .string-list .list-advanced li,
+  .list .array-list .list-basic li,
+  .list .array-list .list-intermediary li,
+  .list .array-list .list-advanced li,
+  .list .function-list .list-basic li,
+  .list .function-list .list-intermediary li,
+  .list .function-list .list-advanced li,
+  .list .object-list .list-basic li,
+  .list .object-list .list-intermediary li,
+  .list .object-list .list-advanced li,
+  .list .handling-list .list-basic li,
+  .list .handling-list .list-intermediary li,
+  .list .handling-list .list-advanced li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.3rem;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  p.conclused {
+    text-decoration: line-through;
+    font-style: italic;
+    color: gray;
+  }
+}
+/* OUTHERS SREENS */
+@media screen and (min-width: 993px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Space Grotesk;
+    color: #f6f6f6;
+    background: black;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .container {
+    padding: 0.5rem;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* titulo */
+  .top-title h1 {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0 0 1rem 0;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .top-title p {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .list {
+    padding: 0.5rem;
+    width: 60%;
+  }
+
+  .list .string-list,
+  .list .array-list,
+  .list .function-list,
+  .list .object-list,
+  .list .handling-list {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .list .string-list h2,
+  .list .array-list h2,
+  .list .function-list h2,
+  .list .object-list h2,
+  .list .handling-list h2 {
+    padding: 0.5rem;
+    font-size: 2rem;
+    box-shadow: 0 0 0.1rem gray;
+  }
+
+  .list .string-list .list-basic,
+  .list .string-list .list-intermediary,
+  .list .string-list .list-advanced,
+  .list .array-list .list-basic,
+  .list .array-list .list-intermediary,
+  .list .array-list .list-advanced,
+  .list .function-list .list-basic,
+  .list .function-list .list-intermediary,
+  .list .function-list .list-advanced,
+  .list .object-list .list-basic,
+  .list .object-list .list-intermediary,
+  .list .object-list .list-advanced,
+  .list .handling-list .list-basic,
+  .list .handling-list .list-intermediary,
+  .list .handling-list .list-advanced {
+    box-shadow: 0 0 0.1rem gray;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+
+  .list .string-list .list-basic h3,
+  .list .string-list .list-intermediary h3,
+  .list .string-list .list-advanced h3,
+  .list .array-list .list-basic h3,
+  .list .array-list .list-intermediary h3,
+  .list .array-list .list-advanced h3,
+  .list .function-list .list-basic h3,
+  .list .function-list .list-intermediary h3,
+  .list .function-list .list-advanced h3,
+  .list .object-list .list-basic h3,
+  .list .object-list .list-intermediary h3,
+  .list .object-list .list-advanced h3,
+  .list .handling-list .list-basic h3,
+  .list .handling-list .list-intermediary h3,
+  .list .handling-list .list-advanced h3 {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .list .string-list .list-basic li,
+  .list .string-list .list-intermediary li,
+  .list .string-list .list-advanced li,
+  .list .array-list .list-basic li,
+  .list .array-list .list-intermediary li,
+  .list .array-list .list-advanced li,
+  .list .function-list .list-basic li,
+  .list .function-list .list-intermediary li,
+  .list .function-list .list-advanced li,
+  .list .object-list .list-basic li,
+  .list .object-list .list-intermediary li,
+  .list .object-list .list-advanced li,
+  .list .handling-list .list-basic li,
+  .list .handling-list .list-intermediary li,
+  .list .handling-list .list-advanced li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.3rem;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  p.conclused {
+    text-decoration: line-through;
+    font-style: italic;
+    color: gray;
+  }
+}

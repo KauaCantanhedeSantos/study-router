@@ -1,0 +1,4 @@
+# Erros 
+  - O replace é usado para alternar de una classe para outra, sem necessidade de ter o . na classe, diferente do add e do remove
+  - Variavel contadora sempre em escopo global;
+  - countClickedElement = 0; // reseta o contador
